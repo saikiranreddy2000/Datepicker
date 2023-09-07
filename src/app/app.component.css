@@ -1,0 +1,25 @@
+
+ 
+  ::ng-deep.tooltip .tooltiptext {
+    position: absolute;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    color :gray;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
+    z-index:9999;
+    
+  }
+  ::ng-deep.tooltiptext::after{
+    content:"";
+    position: absolute;
+    bottom: -20px;
+    left:40%;
+    transform:translateX(50%);
+    border-width:10px;
+    border-style:solid;
+    border-color:white transparent transparent  transparent;
+  }
+    
+
+  
+   
